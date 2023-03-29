@@ -8,7 +8,7 @@ const cardList = [
     },
     {
         title: "Kitten 3",
-        image: "images/kitten-3.png",
+        image: "images/kitten-3.jpg",
         link: "About Kitten 3",
         desciption: "Demo desciption about kitten 3"
     }
