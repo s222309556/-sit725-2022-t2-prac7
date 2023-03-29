@@ -1,0 +1,30 @@
+{
+  "name": "sit725-2022-t2-prac3",
+  "version": "1.0.0",
+  "description": "sit 725 week 3 prac",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s222309556/sit725-2022-t2-prac3.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Achini Uththara Athukorala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s222309556/sit725-2022-t2-prac3/issues"
+  },
+  "homepage": "https://github.com/s222309556/sit725-2022-t2-prac3#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
