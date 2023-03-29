@@ -14,13 +14,13 @@
 
     background-color: #F28487;
     color: white;
-    height: calc(100vh - 64px);
+    height: calc(140vh - 64px);
 }
 
 .materialboxed-image {
 
     margin: 0 auto;
-    height: 400px;
+    height: 200px;
 }
 
 .click-me-button {
