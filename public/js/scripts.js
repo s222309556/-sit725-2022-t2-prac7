@@ -14,6 +14,16 @@ const cardList = [
     }
 ]
 
+// make get request to the server to recieve the data
+const getProjects = () => {
+    $.get('/api/projects', (response) => {
+        if(response.statusCode==200){
+            addCards(response.data);
+        }
+    })
+}
+
+
 const clickMe = () => {
     alert("Thanks for clicking me. Hope you have a nice day!")
 
@@ -41,12 +51,16 @@ const addCards = (items) => {
         $("#card-section").append(itemToAppend)
     });
 }
+
+
 $(document).ready(function () {
     $('.materialboxed').materialbox();
     $('#formSubmit').click(() => {
         submitForm();
     })
 
+    // call getProjects function
+    getProjects();
     addCards(cardList);
     $('.modal').modal();
 });
