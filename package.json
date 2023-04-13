@@ -4,7 +4,8 @@
   "description": "sit 725 week 4 prac",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^4.4.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
