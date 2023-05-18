@@ -1,11 +1,13 @@
 {
-  "name": "sit725-2022-t2-prac4",
+  "name": "sit725-2022-t2-prac7",
   "version": "1.0.0",
-  "description": "sit 725 week 4 prac",
+  "description": "sit 725 week 7 prac",
   "main": "server.js",
   "dependencies": {
     "express": "^4.18.2",
-    "mongodb": "^4.4.1"
+    "http": "^0.0.1-security",
+    "mongodb": "^4.4.1",
+    "socket.io": "^4.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s222309556/sit725-2022-t2-prac4.git"
+    "url": "git+https://github.com/s222309556/sit725-2022-t2-prac7.git"
   },
   "keywords": [
     "Nodejs",
@@ -26,7 +28,7 @@
   "author": "Achini Uththara Athukorala",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/s222309556/sit725-2022-t2-prac4/issues"
+    "url": "https://github.com/s222309556/sit725-2022-t2-prac7/issues"
   },
-  "homepage": "https://github.com/s222309556/sit725-2022-t2-prac4#readme"
+  "homepage": "https://github.com/s222309556/sit725-2022-t2-prac7#readme"
 }
